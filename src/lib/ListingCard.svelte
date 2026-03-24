@@ -72,7 +72,7 @@
         <span class="price-value">{formatCurrency(listing.pricing?.on_demand_hourly)}<span class="price-unit">/hr</span></span>
       </div>
     </div>
-    <button class="deploy-btn">Deploy</button>
+    <button class="purchase-btn">Purchase</button>
   </footer>
 </article>
 
@@ -257,7 +257,7 @@
     color: #6b7280;
   }
 
-  .deploy-btn {
+  .purchase-btn {
     font-family: 'JetBrains Mono', monospace;
     font-size: 12px;
     text-transform: uppercase;
@@ -271,7 +271,7 @@
     transition: all 0.2s ease;
   }
 
-  .deploy-btn:hover {
+  .purchase-btn:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 15px rgba(52, 211, 153, 0.3);
   }

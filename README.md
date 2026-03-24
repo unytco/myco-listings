@@ -18,7 +18,7 @@ You should see a link where the page is being rendered. Either Ctrl-click that l
 
 ## TODO:
  - [ ] Better filtering UI
- - [ ] Change Deploy to Purchase
+ - [x] Change Deploy to Purchase
  - [ ] Test call-out to Unyt for processing payment
  - [ ] Confirm pricing (many are showing as $0)
  - [ ] Clean up UI of each VPS for more readable layout
